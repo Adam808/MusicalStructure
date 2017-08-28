@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+
+    <!-- Activity names -->
+    <string name="now_playing">Now Playing</string>
+    <string name="store">Store</string>
+    <string name="playlists">Playlists</string>
+
+    <!-- Home Button -->
+    <string name="home">Home</string>
+
+    <!-- Description text -->
+    <string name="main_description">This activity displays a scrolling list of all of the songs the user owns.
+        It also contains an EditText where the user can search for a song. The user can select a song to
+        play it, create a playlist, or add a song to a playlist. The user can also navigate to all other
+        activities from this activity.</string>
+    <string name="now_playing_description">This activity displays the name of the currently playing song as well
+        as album artwork and a bar with a sliding indicator denoting the length of the song and which part of the song is
+        currently playing. In addition, there are back and forward buttons to move to the previous and next song in the library
+        respectively, a pause/play button, and a volume slider.</string>
+    <string name="playlists_description">This activity contains all the playlists the user has created. The user
+        can select a playlist to play it and also delete playlists.</string>
+    <string name="store_description">Google In-App Billing API:
+        \n1) Send isBillingSupported request to Google Play.
+        \n2) Send getPurchases request to see what the user already owns.
+        \n3) Send a getSkuDetails request to show what is available for purchase.
+        \n4) Send a getBuyIntent request.
+        \n5) Google Play returns a PendingIntent.
+        \n6) Launch impending intent with startIntentSenderForResult.
+        \n7) onActivityResult indicates if purchase was successful.</string>
+
+</resources>

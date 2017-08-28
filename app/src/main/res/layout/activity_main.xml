@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextViewTheme"
+        android:text="@string/main_description"/>
+
+    <Button
+        android:id="@+id/store"
+        style="@style/MainActivityButton"
+        android:text="@string/store"
+        android:background="@color/color2" />
+
+    <Button
+        android:id="@+id/now_playing"
+        style="@style/MainActivityButton"
+        android:text="@string/now_playing"
+        android:background="@color/color3" />
+
+    <Button
+        android:id="@+id/playlists"
+        style="@style/MainActivityButton"
+        android:text="@string/playlists"
+        android:background="@color/color4" />
+
+</LinearLayout>
