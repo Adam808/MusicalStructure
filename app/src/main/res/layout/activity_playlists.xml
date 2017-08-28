@@ -6,12 +6,18 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.musicalstructure.Playlists">
 
-    <Button
-        android:id="@+id/playlistsToHome"
-        style="@style/HomeButtonTheme" />
+    <TextView
+        android:id="@+id/playlists_title"
+        style="@style/TextViewTheme"
+        android:text="@string/playlists" />
 
     <TextView
         style="@style/TextViewTheme"
-        android:text="@string/playlists_description" />
+        android:text="@string/playlists_description"
+        android:layout_below="@id/playlists_title"/>
+
+    <Button
+        android:id="@+id/playlistsToHome"
+        style="@style/HomeButtonTheme" />
 
 </RelativeLayout>

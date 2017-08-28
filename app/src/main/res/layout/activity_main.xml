@@ -8,6 +8,10 @@
 
     <TextView
         style="@style/TextViewTheme"
+        android:text="@string/home_library"/>
+
+    <TextView
+        style="@style/TextViewTheme"
         android:text="@string/main_description"/>
 
     <Button

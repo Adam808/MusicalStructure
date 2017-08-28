@@ -2,6 +2,7 @@
     <string name="app_name">MusicalStructure</string>
 
     <!-- Activity names -->
+    <string name="home_library">Home/Song Library</string>
     <string name="now_playing">Now Playing</string>
     <string name="store">Store</string>
     <string name="playlists">Playlists</string>

@@ -7,8 +7,14 @@
     tools:context="com.example.android.musicalstructure.NowPlaying">
 
     <TextView
+        android:id="@+id/now_playing_title"
         style="@style/TextViewTheme"
-        android:text="@string/now_playing_description"/>
+        android:text="@string/now_playing"/>
+
+    <TextView
+        style="@style/TextViewTheme"
+        android:text="@string/now_playing_description"
+        android:layout_below="@id/now_playing_title"/>
 
     <Button
         android:id="@+id/nowToHome"
